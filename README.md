@@ -4,13 +4,13 @@ Welcome! This guide will help you clone this repository and keep it up-to-date w
 🔹 Step 1: Clone the Repository
 Open your terminal or command prompt and run the following command to clone the repository:
 
-- "git clone https://github.com/challighrag/WebDev"
+- "git clone https://github.com/challighrag/MongoDB"
 This will create a local copy of the repository on your computer.
 
 🔹 Step 2: Stay Updated with the Latest Changes
 Whenever you want to get the latest updates from the repository, navigate into the cloned folder though terminal or command prompt and run the following commands:
 
-- "cd WebDev"
+- "cd MongoDB"
 - "git pull"
 This will fetch and merge any new changes from the repository.
 
