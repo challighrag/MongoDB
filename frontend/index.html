@@ -8,17 +8,21 @@
 <body>
     <h1>Add a Student</h1>
 
-    <form>
+    <form id="form">
         <label>
             Name:
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" required>
         </label>
         <label>
             Surname:
-            <input type="text" name="surname" id="surname">
+            <input type="text" name="surname" id="surname" required>
         </label>
         
-        <button type="submit">Add A Student</button>
+        <button type="submit" id="btn">Add A Student</button>
     </form>
+
+    <h1>List of Students</h1>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
