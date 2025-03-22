@@ -7,5 +7,14 @@ router.post("/", async (req, res) => {
     await Student.create({name, surname});
     res.json();
 });
+router.get("/", async (req, res) => {
+    const data = await Student.find({})
+    res.json(data);
+})
+router.delete("/:id", async (req, res) => {
+    const id = req.params.id;
+    await Student.findByIdAndDelete(id);
+    res.json();
+});
 
 module.exports = router;
